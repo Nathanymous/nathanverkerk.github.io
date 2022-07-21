@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Contact</title>
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body class="contact-body">
+    <!--header-->
+    <header>
+        <h1> 
+            Nathan Verkerk huiswerk site
+        </h1>
+        <a href="index.html">
+            <img class="header-image" src="images/nathan-knowledge.png"></a>            
+        </a>
+        <ul class="header-menu">
+            <li><a href="index.html">Homepagina</a></li>
+            <li><a href="over_mij.html">Over mij</a></li>
+            <li><a href="lob\lob.html">Lob pagina</a></li>
+            <li><a href="adobe\adobe.html">Adobe pagina</a></li>
+            <li><a href="vmware\VMWare.html">VMWare pagina</a></li>
+            <li><a href="livestream\livestream.html">Livestream pagina</a></li>
+        </ul>
+    </header>
+    <!--main-->
+    <main>
+        <form action="mailto:84230@glr.nl" method="post" enctype="text/plain">
+            <fieldset>
+              <legend><b>Neem contact op met mij!</b></legend>
+                <div class="formgrid">
+                  <!-- rij 1 -->
+                  <label for="naam">Naam:</label>
+                  <input id="naam" name="naam " type="text" />
+                        <br>
+                        <br>
+                  <!-- rij 2 -->
+                  <label for="geslacht">Geslacht:</label>
+                  <select id="geslacht" name="Mijn geslacht">
+                      <option value="Man">Man</option>
+                      <option value="Vrouw">Vrouw</option>
+                      <option value="Onzijdig">Onzijdig</option>
+                  </select>
+                        <br>
+                        <br>
+                  <!-- rij 3 -->
+                  <label for="bericht">Bericht:</label>
+                        <br>
+                  <textarea id="bericht" name="Bericht" rows="5" cols="20"></textarea>
+                        <br>
+                        <br>
+                  <!-- rij 4 -->
+                  <input id="html" name="Algemene voorwaarden" type="checkbox" />
+                  <label for="html">Ik ga akkoord met de algemene voorwaarden.</label>
+                        <br>
+                        <br>
+                  <!-- rij 5 -->
+                  <button type="submit">VERSTUUR</button>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+    <!--Footer-->
+    <footer>
+        <div class="column">
+            <p class="footer-titel"><b>Handige pagina's:</b></p>
+            <a class="footer-menu" href="index.html">Homepagina</a><br>
+            <a class="footer-menu" href="contact.html">Contact</a><br>
+            <a class="footer-menu" href="over_mij.html">Over mij</a><br>
+        </div>
+        <div class="column2">
+                <p class="footer-titel"><b>Vakken:</b></p>
+                <a class="footer-menu" href="lob\lob.html">Lob pagina</a><br>
+                <a class="footer-menu" href="adobe\adobe.html">Adobe pagina</a><br>
+                <a class="footer-menu" href="vmware\VMWare.html">VMWare pagina</a><br>
+                <a class="footer-menu" href="livestream\livestream.html">Livestream pagina</a>
+        </div>
+            <p class="copyright">&copy Nathan Verkerk</p>
+    </footer>
+</body>
+</html>
