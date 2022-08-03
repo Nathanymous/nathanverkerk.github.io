@@ -3,11 +3,7 @@
   padding: 0;
   margin: 0;
 }
-body {
-  background-color: lightgrey;
-}
 p {
-  margin: 15px 10px 0 10px;
   font-size: 18px;
   font-family: "Times New Roman", Times, serif;
 }
@@ -36,12 +32,13 @@ a:link {
   }
 .header-menu {
   list-style-type: none;
-  margin-top: 70px;
   overflow: hidden;
   background-color: #333;
 }
-li {
-  float: right;
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 li a {
   display: block;
@@ -49,169 +46,30 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  width: 120px;
+  border-radius: 4px;
 }
 li a:hover {
   background-color: #111;
 }
-.header-image {
-  float: left;
-  width: 25%;
-  height: auto;
-  position: relative;
-  margin: -40px 30px 15px 30px;
-}
 /*main*/
 main {
   width: auto;
-  min-height: 500px;
-}
-.main-index {
-  min-height: 1350px;
-}
-.main-image{
-    display: block;
-    width: 99%;
-    margin: 5px 10px 0 10px;
-} 
-.video {
-  display: block;
-  float: right;
-  margin-right: 30px;
-  margin-top: 15px;
-  position: relative;
-}
-/*blokken*/
-.linkblok1 {
-  width: 44%;
-  height: 300px;
-  margin: 20px 0 0 20px;
-  border: 3px solid cornflowerblue;
-  border-radius: 15px;
-  padding: 15px 15px 15px 15px;
-  float: left;
-  font-size: 18px;
-}
-.linkblok1-head {
-  font-size: 24px;
-}
-.linkblok1-link {
-  display: block;
-  padding: 14px 16px;
-  text-align: center;
-  color: white;
-  background-color: cornflowerblue;
-  width: 140px;
-  height: 30px;
-  margin-left: 34%;
-  margin-top: 80px;
-  border-radius: 20px;
-}
-a.linkblok1-link:hover  {
-  color: white;
-  background-color: rgb(124, 165, 243);
-  border-color: blue;
-}
-.linkblok2 {
-  width: 44%;
-  height: 300px;
-  margin: 20px 20px 0 0;
-  border: 3px solid cornflowerblue;
-  border-radius: 15px;
-  padding: 15px 15px 15px 15px;
-  float: right;
-  font-size: 18px;
-}
-.linkblok2-head {
-  font-size: 24px;
-}
-.linkblok2-link {
-  display: block;
-  padding: 14px 16px;
-  text-align: center;
-  color: white;
-  background-color: cornflowerblue;
-  width: 140px;
-  height: 30px;
-  margin-left: 34%;
-  margin-top: 80px;
-  border-radius: 20px;
-}
-a.linkblok2-link:hover  {
-  color: white;
-  background-color: rgb(124, 165, 243);
-  border-color: blue;
-}
-.linkblok3 {
-  width: 44%;
-  height: 300px;
-  margin: 20px 0 0 20px;
-  border: 3px solid cornflowerblue;
-  border-radius: 15px;
-  padding: 15px 15px 15px 15px;
-  float: left;
-  font-size: 18px;
-}
-.linkblok3-head {
-  font-size: 24px;
-}
-.linkblok3-link {
-  display: block;
-  padding: 14px 16px;
-  text-align: center;
-  color: white;
-  background-color: cornflowerblue;
-  width: 140px;
-  height: 30px;
-  margin-left: 34%;
-  margin-top: 80px;
-  border-radius: 20px;
-}
-a.linkblok3-link:hover  {
-  color: white;
-  background-color: rgb(124, 165, 243);
-  border-color: blue;
-}
-.linkblok4 {
-  width: 44%;
-  height: 300px;
-  margin: 20px 20px 0 0;
-  border: 3px solid cornflowerblue;
-  border-radius: 15px;
-  padding: 15px 15px 15px 15px;
-  float: right;
-  font-size: 18px;
-}
-.linkblok4-head {
-  font-size: 24px;
-}
-.linkblok4-link {
-  display: block;
-  padding: 14px 16px;
-  text-align: center;
-  color: white;
-  background-color: cornflowerblue;
-  width: 140px;
-  height: 30px;
-  margin-left: 34%;
-  margin-top: 80px;
-  border-radius: 20px;
-}
-a.linkblok4-link:hover  {
-  color: white;
-  background-color: rgb(124, 165, 243);
-  border-color: blue;
+  height: auto;
+  background-color: lightgray;
 }
 /*footer*/
 footer {
-  height: 175px;
   background-color: #333;
+  height: auto;
+  width: 100%;
+  padding: 6px;
+  overflow: auto;
+  position: fixed;
   text-align: center;
-  column-span: all;
 }
-.footer-titel {
+.p-footer {
   color: white;
-  font-size: 20px;
-  margin-bottom: 5px;
 }
 .column {
   float: left;
@@ -220,28 +78,4 @@ footer {
 .column2 {
   float: right;
   margin-right: 25%;
-}
-a.footer-menu:hover  {
-  color: grey;
-}
-.copyright {
-  float: left;
-  margin-top: 2.2%;
-  margin-right: 40%;
-  color: white;
-}
-/*contact pagina*/
-.formgrid {
-  margin-left: 10%;
-  margin-top: 5px;
-}
-legend {
-  margin-left: 40%;
-  font-size: 20px;
-  margin-top: 5px;
-}
-.contact-body {
-  display: grid;
-  grid-column: auto;
-  grid-row: auto;
 }
