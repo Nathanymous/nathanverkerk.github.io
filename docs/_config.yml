@@ -1,2 +1,8 @@
-name: Nathan Verkerk website
-theme: minima
+# Name of website
+title: Nathan Verkerk
+
+# Theme for the website
+theme: cayman
+
+plugins:
+- jekyll-remote-theme
