@@ -2,7 +2,7 @@
 title: Nathan Verkerk
 
 # Theme for the website
-theme: cayman
+theme: Cayman
 
 plugins:
 - jekyll-remote-theme
