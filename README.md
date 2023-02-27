@@ -1,2 +1,2 @@
-# nathanverkerk.github.io
-Repository for the website nathanverkerk.github.io
+# nathanymous.github.io
+Repository for the website nathanymous.github.io
