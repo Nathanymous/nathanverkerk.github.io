@@ -5,36 +5,53 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/main.css">
+        <script src="javascript/script.js"></script>
         <link rel="icon" type="image/x-icon" href="media/image/favicon.jpg">
     </head>
 
-    <!--Header-->
+    <!-- Header -->
     <header>
         <nav>
             <ul class="header-menu">
-                <li class="header-menu-left header-li"><a href="index.html">Home</a></li>
-                <li class="header-menu-left header-li"><a href="portfolio.html">Portfolio</a></li>
-                <li class="header-menu-center header-li"><img class="foto-midden" src="media/image/favicon.jpg" href="index.html"></li>
-                <li class="header-menu-right header-li"><a href="overmij.html">Over mij</a></li>
-                <li class="header-menu-right header-li"><a href="contact.html">Contact</a></li>
+                <li class="header-menu-left"><a href="index.html">Home</a></li>
+                <li class="header-menu-left"><a href="portfolio.html">Portfolio</a></li>
+                <li class="header-menu-center">
+                    <a href="index.html">
+                        <img class="foto-midden" src="media/image/favicon.jpg" alt="Logo">
+                    </a>
+                </li>
+                <li class="header-menu-right"><a href="overmij.html">Over mij</a></li>
+                <li class="header-menu-right"><a href="mailto:info@nathanverkerk.com">Contact</a></li>
             </ul>
         </nav>
     </header>
 
+
     <!--Main-->
     <main>
-        <h1>Website van Nathan Verkerk</h1>
-        <p>Welkom op deze website</p>
+        <div class="article1">
+            <div class="article1-text">
+                <h1>Nathan Verkerk</h1>
+                <p>Welkom op mijn website! Mijn naam is Nathan, ik ben momenteel 21 jaar oud en werk bij AAD Automatisering. Wil je meer over mij weten? Ga dan naar de pagina <a href="overmij.html">Over mij</a>.</p>
+                <p>Wil je meer weten over wat ik kan, en doe? Ga dan naar de pagina <a href="portfolio.html">Portfolio</a>.</p>
+            </div>
+            <div class="article1-img">
+                <img class="article1-foto" src="media/image/foto-main.jpg">
+            </div>
+        </div>
+
+
     </main>
 
     <!--Footer-->
     <footer>
         <nav>
             <ul class="footer-menu">
-                <li class="footer li"><a href="https://github.com/nathanverkerk">GitHub</a></li>
-                <li class="footer-li"><p class="copyright-text">Copyright &copy;Nathan Verkerk</p></li>
+                <li class="footer li"><a href="https://github.com/nathanymous">GitHub</a></li>
+                <li class="footer-li"><p class="copyright-text">Copyright &copy; Nathan Verkerk</p></li>
                 <li class="footer li"><a href="https://linkedin.com/in/nathanverkerk">LinkedIn</a></li>
             </ul>
+            <button id="scrollToTop" class="scroll-to-top">↑</button>
         </nav>
     </footer>
 </html>
